@@ -18,10 +18,12 @@ private:
   int nivelDificultad;
 
 public:
-  videojuego(int, string, string, int);
-  void mostrar();
+    videojuego(string codigo, string nombre, string genero, int nivelDificultad);
+    string getCodigo();
+    string getNombre();
+    string getGenero();
+    int getNivelDificultad();
+    void mostrar();
 };
-
-
 
 #endif //VIDEOJUEGO_H

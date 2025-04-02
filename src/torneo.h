@@ -18,12 +18,14 @@ private:
     map<string, videojuego*> videojuegosDisponibles;
     map<string, jugador*> jugadoresRegistrados;
 public:
-    void registrarVideojuego();
-    void registrarJugador();
-    void inscribirJugadorEnVideojuego();
-    void mostrarVideojuegosDeJugador();
+    void registrarVideojuego(Videojuego* juego);
+    void registrarJugador(Jugador* jugador);
+    void inscribirJugadorEnVideojuego(string nickname, string codigo);
+    void mostrarVideojuegosDeJugador(string nickname);
     void inicializarVideojuegos();
     void inicializarJugadores();
+    bool existeVideojuego(string codigo);
+    bool existeJugador(string nickname);
 };
 
 

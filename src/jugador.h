@@ -16,10 +16,16 @@ class jugador {
 private:
     string nickname;
     int nivelRanking;
-    vector<videojuego> videojuegosInscritos;
+    vector<videojuego*> videojuegosInscritos;
 public:
-    jugador(string, int);
-    void mostar();
+    jugador(string nickname, int nivelRanking);
+    string getNickname();
+    int getNivelRanking();
+    vector<videojuego*>& getVideojuegosInscritos();
+    void inscribirVideojuego(Videojuego* juego);
+    bool estaInscrito(Videojuego* juego);
+    float promedioDificultad();
+    void mostrarVideojuegos();
 };
 
 
