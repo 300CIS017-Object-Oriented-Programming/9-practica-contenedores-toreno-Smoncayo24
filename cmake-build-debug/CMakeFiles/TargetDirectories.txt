@@ -1,0 +1,3 @@
+C:/poo/9-practica-contenedores-toreno-Smoncayo24/cmake-build-debug/CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir
+C:/poo/9-practica-contenedores-toreno-Smoncayo24/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/poo/9-practica-contenedores-toreno-Smoncayo24/cmake-build-debug/CMakeFiles/rebuild_cache.dir
