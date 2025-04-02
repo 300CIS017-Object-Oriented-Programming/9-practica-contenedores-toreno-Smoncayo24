@@ -55,6 +55,24 @@ build CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/main.cpp.obj: CXX
   OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
   OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
 
+build CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/jugador.cpp.obj: CXX_COMPILER__9_practica_contenedores_toreno_Smoncayo24_unscanned_Debug C$:/poo/9-practica-contenedores-toreno-Smoncayo24/src/jugador.cpp || cmake_object_order_depends_target_9_practica_contenedores_toreno_Smoncayo24
+  DEP_FILE = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src\jugador.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
+  OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src
+
+build CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/torneo.cpp.obj: CXX_COMPILER__9_practica_contenedores_toreno_Smoncayo24_unscanned_Debug C$:/poo/9-practica-contenedores-toreno-Smoncayo24/src/torneo.cpp || cmake_object_order_depends_target_9_practica_contenedores_toreno_Smoncayo24
+  DEP_FILE = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src\torneo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
+  OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src
+
+build CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/videojuego.cpp.obj: CXX_COMPILER__9_practica_contenedores_toreno_Smoncayo24_unscanned_Debug C$:/poo/9-practica-contenedores-toreno-Smoncayo24/src/videojuego.cpp || cmake_object_order_depends_target_9_practica_contenedores_toreno_Smoncayo24
+  DEP_FILE = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src\videojuego.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
+  OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 9_practica_contenedores_toreno_Smoncayo24
@@ -63,7 +81,7 @@ build CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/main.cpp.obj: CXX
 #############################################
 # Link the executable 9_practica_contenedores_toreno_Smoncayo24.exe
 
-build 9_practica_contenedores_toreno_Smoncayo24.exe: CXX_EXECUTABLE_LINKER__9_practica_contenedores_toreno_Smoncayo24_Debug CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/main.cpp.obj
+build 9_practica_contenedores_toreno_Smoncayo24.exe: CXX_EXECUTABLE_LINKER__9_practica_contenedores_toreno_Smoncayo24_Debug CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/main.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/jugador.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/torneo.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Smoncayo24.dir/src/videojuego.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Smoncayo24.dir
